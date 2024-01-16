@@ -1,12 +1,22 @@
-import {Form} from './Form';
-import {List} from './List';
+import { useState, useEffect } from 'react';
+import './index.css';
+import Form from './Form';
+import List from './List';
 
 function Contacts() {
-<div>
-    <Form/>
+    const [contacts, setContacts] = useState([])
 
-    <List/>
-</div>
+    useEffect(() => {
+        console.log(contacts);
+    }, [contacts])
+
+    return(
+        <div className='contactsParent'> Contact List
+            <List/>
+            <br/>
+            <Form addContact={setContacts} contacts={contacts}/>
+        </div>
+    )
 }
 
 export default Contacts

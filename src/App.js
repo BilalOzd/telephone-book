@@ -1,14 +1,9 @@
-import logo from './logo.svg';
-import {Contacts} from './Components/Contacts/index';
+import Contacts from './Components/Contacts/index';
 
 function App() {
   return (
     <div className="App">
-
-      
       <Contacts/>
-
-
     </div>
   );
 }
