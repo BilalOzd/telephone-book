@@ -2,6 +2,26 @@
     border: 3px solid aqua
 }
 
+.formParent{
+    border: 1px solid red;
+    margin: 0;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.formInput{
+  display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.addButton{
+  margin: 5px 50px 0px 50px;
+  width: fit-content;
+  border: 1px solid red;
+}
+
 input{
     width: 100%;
     margin-top: 5px;
