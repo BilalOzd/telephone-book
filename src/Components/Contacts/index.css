@@ -1,5 +1,6 @@
 .contactsParent{
-    border: 3px solid aqua
+    border: 4px solid aqua;
+    margin: 0;
 }
 
 .formParent{
@@ -12,7 +13,7 @@
 .formInput{
   display: inline-block;
   border: 1px solid red;
-  padding: 1rem 1rem;
+  padding: 0;
   vertical-align: middle;
 }
 
@@ -34,6 +35,7 @@ input{
 
 ul,li{
     margin: 0px;
-    padding: 0px;
+    padding: 1px;
     list-style-type: none;
+    background-color: #50b856;
 }

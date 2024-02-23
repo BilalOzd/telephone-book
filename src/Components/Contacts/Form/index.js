@@ -34,7 +34,6 @@ function Form({addContact, contacts}) {
 
     return(
         <div className="formParent">
-
             <form onSubmit={OnSubmitInput}>
                 <div className="formInput">
                     <input
@@ -56,7 +55,6 @@ function Form({addContact, contacts}) {
                     <button>Add</button>
                 </div>
             </form>  
-
         </div>  
     )
 }

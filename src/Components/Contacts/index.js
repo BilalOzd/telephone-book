@@ -15,7 +15,8 @@ function Contacts() {
     }, [contacts])
 
     return(
-        <div className='contactsParent'> Contact List
+        <div className='contactsParent'>
+            <h2>Contacts</h2>
             <List contacts={contacts} />
             <br/>
             <Form addContact={setContacts} contacts={contacts}/>
