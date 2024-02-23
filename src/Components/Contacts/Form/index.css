@@ -1,17 +1,17 @@
 .formParent{
     border: 1px solid red;
-    margin: 1rem;
+    margin: 0;
     padding: 2rem 2rem;
     text-align: center;
 }
 
-.input{
+.formInput{
   display: inline-block;
   border: 1px solid red;
   padding: 1rem 1rem;
   vertical-align: middle;
 }
 
-.button{
+.addButton{
   border: 1px solid red
 }
