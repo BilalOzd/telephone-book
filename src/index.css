@@ -14,9 +14,8 @@ code {
 
 .App{
   margin: 100px 25% 100px 25%;
-  border: 5px solid rgb(6, 6, 6);
   box-sizing:border-box;
   border-style: groove;
   text-align: center;
-  background-color: #2e138f5f;
+  background-color: #edef5d;
 }

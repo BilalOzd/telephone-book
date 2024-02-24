@@ -1,26 +1,60 @@
 .contactsParent{
-    border: 4px solid aqua;
     margin: 0;
 }
 
+.contactsParent > p {
+  margin: 0 0 0 90%;
+  width: fit-content;
+  font-size: 7px;
+  text-align: left;
+}
+
 .formParent{
-    border: 1px solid red;
-    margin: 0;
-    padding: 1rem 1rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 1px;
     text-align: center;
+}
+
+.formParent > h3 {
+  margin: 0;
 }
 
 .formInput{
   display: inline-block;
-  border: 1px solid red;
   padding: 0;
   vertical-align: middle;
 }
 
 .addButton{
-  margin: 5px 50px 0px 50px;
+  margin: 0px auto 0px auto;
   width: fit-content;
-  border: 1px solid red;
+}
+
+.listDiv{
+  margin: 0 auto 0 auto;
+  width: 85%;
+}
+
+.listDiv > h3 {
+  margin: 0 auto 5px auto;
+}
+
+.listDiv > p {
+  width: fit-content;
+  margin-top: 0;
+  margin-right: 10%;
+  font-size: small;
+  font-style: italic;
+  text-align: left;
+}
+
+.listDiv > ul > li {
+  background-color: #fff8e7;
+  padding: 5px;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: space-between;
 }
 
 input{
@@ -34,8 +68,7 @@ input{
 }
 
 ul,li{
-    margin: 0px;
-    padding: 1px;
+    margin: 0;
+    padding: 0;
     list-style-type: none;
-    background-color: #50b856;
 }

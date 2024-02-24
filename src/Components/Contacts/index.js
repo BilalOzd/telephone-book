@@ -16,10 +16,12 @@ function Contacts() {
 
     return(
         <div className='contactsParent'>
-            <h2>Contacts</h2>
+            <h2>Telephone Book</h2>
             <List contacts={contacts} />
-            <br/>
             <Form addContact={setContacts} contacts={contacts}/>
+            <p className='signature'>
+                by Bilal Özdemir
+            </p>
         </div>
     )
 }

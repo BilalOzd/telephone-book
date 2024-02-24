@@ -15,13 +15,15 @@ function List({contacts}) {
              className="filterInput"
              placeholder="Filter"
              value={filteredText}
-             onChange={(e) => setFilteredText(e.target.value)}
-            />  
+             onChange={(e) => setFilteredText(e.target.value)}>
+            </input>  
+            <h3>Contacts List</h3>
+
             <ul>
                 {
-                    filter.map((contact, index) => (
-                        <li key={index}>{contact.fullname} {contact.phone_number}</li>
-                    ))
+                  filter.map((contact, index) => (
+                      <li key={index}>{contact.fullname} {contact.phone_number}</li>
+                  ))
                 }
             </ul>
             <p>Number of contacts ({filter.length})</p>

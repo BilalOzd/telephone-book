@@ -34,6 +34,7 @@ function Form({addContact, contacts}) {
 
     return(
         <div className="formParent">
+            <h3>Add Contact</h3>
             <form onSubmit={OnSubmitInput}>
                 <div className="formInput">
                     <input
@@ -52,7 +53,7 @@ function Form({addContact, contacts}) {
                     />
                 </div>
                 <div className="addButton">
-                    <button>Add</button>
+                    <button>Add Contact</button>
                 </div>
             </form>  
         </div>  
