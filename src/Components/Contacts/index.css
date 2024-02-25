@@ -3,27 +3,21 @@
 }
 
 .contactsParent > p {
-  margin: 0 0 0 90%;
+  margin: 0 2px 1px auto;
   width: fit-content;
   font-size: 7px;
   text-align: left;
 }
 
 .formParent{
-    margin-top: 0;
-    margin-bottom: 10px;
-    padding: 1px;
-    text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 1px;
+  text-align: center;
 }
 
 .formParent > h3 {
   margin: 0;
-}
-
-.formInput{
-  display: inline-block;
-  padding: 0;
-  vertical-align: middle;
 }
 
 .addButton{
@@ -58,7 +52,7 @@
 }
 
 input{
-    width: 100%;
+    width: 61%;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px;

@@ -17,6 +17,7 @@ function List({contacts}) {
              value={filteredText}
              onChange={(e) => setFilteredText(e.target.value)}>
             </input>  
+            
             <h3>Contacts List</h3>
 
             <ul>
